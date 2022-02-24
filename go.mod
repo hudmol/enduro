@@ -5,24 +5,24 @@ go 1.17
 require (
 	github.com/alicebob/miniredis/v2 v2.18.0
 	github.com/anmitsu/go-shlex v0.0.0-20200514113438-38f4b401e2be // indirect
-	github.com/aws/aws-sdk-go v1.42.51
+	github.com/aws/aws-sdk-go v1.43.5
 	github.com/cenkalti/backoff/v4 v4.1.2
 	github.com/fsnotify/fsnotify v1.5.1
 	github.com/go-logr/logr v1.2.2
-	github.com/go-logr/zapr v1.2.2
+	github.com/go-logr/zapr v1.2.3
 	github.com/go-redis/redis/v8 v8.11.4
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/golang-migrate/migrate/v4 v4.15.1
 	github.com/golang/mock v1.6.0
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/schema v1.2.0
-	github.com/gorilla/websocket v1.4.2
+	github.com/gorilla/websocket v1.5.0
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/jonboulle/clockwork v0.2.2
 	github.com/mholt/archiver/v3 v3.5.1
-	github.com/nyudlts/go-bagit v0.1.1-alpha.0.20220214141947-20f7d3004abe
+	github.com/nyudlts/go-bagit v0.2.0-alpha
 	github.com/oklog/run v1.1.0
 	github.com/opentracing/opentracing-go v1.2.0 // indirect
 	github.com/otiai10/copy v1.7.0
