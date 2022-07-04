@@ -12,7 +12,7 @@ services:
     volumes:
       - "./hack/docker-init-mysql.sql:/docker-entrypoint-initdb.d/docker-init.sql"
     ports:
-      - "127.0.0.1:7450:3306"
+      - "0.0.0.0:7450:3306"
 
   cadence:
     image: "ubercadence/server:0.9.5"
@@ -44,7 +44,7 @@ services:
     environment:
       - "CADENCE_TCHANNEL_PEERS=cadence:7400"
     ports:
-      - "127.0.0.1:7440:8088"
+      - "0.0.0.0:7440:8088"
 
   minio:
     image: "minio/minio:RELEASE.2020-04-28T23-56-56Z"
@@ -52,9 +52,9 @@ services:
     volumes:
       - "./hack/minio-data:/data"
     ports:
-      - "127.0.0.1:7460:9000"
+      - "0.0.0.0:7460:9000"
 
   redis:
     image: "redis:5-alpine"
     ports:
-      - "127.0.0.1:7470:6379"
+      - "0.0.0.0:7470:6379"
